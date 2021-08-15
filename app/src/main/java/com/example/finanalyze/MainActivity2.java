@@ -3,6 +3,7 @@ package com.example.finanalyze;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -10,8 +11,8 @@ import android.view.WindowManager;
 public class MainActivity2 extends AppCompatActivity {
     public void signUp(View view)
     {
-        Intent intent = new Intent(getApplicationContext(),SignUp.class);
-        startActivity(intent);
+        /*Intent signUpintent = new Intent(Intent.ACTION_VIEW, Uri.parse());
+        startActivity(signUpIntent);*/
     }
 
     @Override
