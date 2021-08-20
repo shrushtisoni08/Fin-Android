@@ -33,7 +33,7 @@
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal"
-        android:text="Analyse expense data and generate meaningful reports"
+        android:text="Analyse expense data and &#10;generate meaningful reports"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="399dp" />
 
