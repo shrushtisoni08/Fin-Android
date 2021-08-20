@@ -23,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
         android:backgroundTint="@color/white"
+        android:onClick="signIn"
         android:text="Sign In"
         android:textColor="@android:color/holo_blue_dark" />
 

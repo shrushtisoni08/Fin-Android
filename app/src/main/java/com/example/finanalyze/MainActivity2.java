@@ -11,8 +11,13 @@ import android.view.WindowManager;
 public class MainActivity2 extends AppCompatActivity {
     public void signUp(View view)
     {
-        /*Intent signUpintent = new Intent(Intent.ACTION_VIEW, Uri.parse());
-        startActivity(signUpIntent);*/
+        Intent signUpIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.finanalyze.in/accounts/sign_up"));
+        startActivity(signUpIntent);
+    }
+    public void signIn(View view)
+    {
+        Intent signInIntent = new Intent(getApplicationContext(), SignIn.class);
+        startActivity(signInIntent);
     }
 
     @Override
